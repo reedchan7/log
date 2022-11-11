@@ -22,4 +22,5 @@ func TestLogger(t *testing.T) {
 	ReplaceLogger(logger)
 	SetLevel(InfoLevel)
 	Infof("What's your name? My name is %s", "Chan")
+	Error("illegal argument error", String("arg", "name"))
 }
