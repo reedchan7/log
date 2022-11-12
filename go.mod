@@ -1,4 +1,4 @@
-module e.coding.net/coding-artifacts/log
+module e.codingcorp.net/devops/coding-artifacts/log
 
 go 1.19
 
